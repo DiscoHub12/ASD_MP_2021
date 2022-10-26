@@ -1,0 +1,23 @@
+MINI-PROJECT N.1. 
+Mainly, the first mini-project consists in the development and implementation of methods of two classes:
+1) MyMultiset:
+which represents a set in which elements can be entered multiple times, 
+and the number of occurrences of a given number is available at any time. 
+This number is called multiplicity and cannot be negative.
+2) DisjointSets: 
+which represents any collection of sets that have an empty intersection 
+two by two, ie an element either does not belong to the collection, 
+or if it belongs, it is part of only one set among those currently existing disjoint. 
+For example:
+- [{1}]
+- [{2},{3}]
+- [{1},{2},{3}] (union)
+In every disjoint set we find a representative, which is an element of the whole. 
+There is a well-defined rule, if you ask for the representative of a disjoint set 
+without modifications, the one remaining as such. We also find many methods such as
+makeSet which creates a new disjoint set containing only one element x where x is 
+also the representative,
+findSet which allows to return a representative of a given disjoint set, 
+the Union method and other methods.
+All the tests that were planned for this project (which cannot be for copyright question) 
+are completely correct and pass publications correctly.

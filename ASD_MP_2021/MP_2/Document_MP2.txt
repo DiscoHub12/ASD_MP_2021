@@ -1,0 +1,16 @@
+MINI-PROJECT N.2. 
+Mainly, compared to mini-project number 1, this mini-project deals with the following classes:
+1) AdjacencyMatrixUndirectedGraph <L> implements Graph <L>
+to create an undirected graph using a variant of the representation 
+of graphs with an adjacency matrix.
+The following class must implement all the methods of Graph <L> 
+(which unfortunately I cannot put due to copyright or privacy issues)
+2) ForestDisjointSets using tree forests where each tree represents one 
+of the disjoint sets
+3) Implementation of an algorithm for calculating the connected components 
+of an undirected graph using the ForestDisjointSets class.
+4) Implementation of the Kruskal algorithm for the calculation 
+of a minimum spanning tree in an undirected and weighted graph using the 
+ForestDisjointSets class
+5) Implementation of Prim's algorithm for the calculation of a minimum 
+spanning tree in an undirected and weighted graph.
